@@ -1,5 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ue7ul43e0515ros2?svg=true)](https://ci.appveyor.com/project/dm-morozov/netology-51-working-environment)
-![CI](https://github.com/dm-morozov/Netology_51_Working_environment/actions/workflows/web.yaml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/kcse9hhq8gnyxrv0?svg=true)](https://ci.appveyor.com/project/dm-morozov/netology-52-working-with-dom)
+![CI](https://github.com/dm-morozov/Netology_52_working_with_dom/actions/workflows/web.yaml/badge.svg)
 ![Netology](https://img.shields.io/badge/TypeScript-JavaScript-blue)
 
 # 🧾 [Домашнее задание к занятию "1. Рабочее окружение"](./README_for_Netology.md)
@@ -18,7 +18,7 @@
    GitHub Pages Setup
 5. В файле `README.md` добавить бейджик статуса GitHub Actions:
    ```md
-   ![CI](https://github.com/dm-morozov/Netology_51_Working_environment/actions/workflows/web.yaml/badge.svg)
+   ![CI](https://github.com/dm-morozov/Netology_52_working_with_dom/actions/workflows/web.yaml/badge.svg)
    ```
 
 ---
@@ -26,7 +26,7 @@
 ### 🌐 Демо:
 
 Доступно по адресу:  
-👉 [https://dm-morozov.github.io/netology-51-working-environment/](https://dm-morozov.github.io/Netology_51_Working_environment/)
+👉 [https://dm-morozov.github.io/Netology_52_working_with_dom/](https://dm-morozov.github.io/Netology_52_working_with_dom/)
 
 ---
 
