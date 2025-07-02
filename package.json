@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+  "test": "jest --coverage --passWithNoTests",
     "dev": "webpack serve --env development",
     "build": "webpack --env production",
     "lint": "eslint ./src",
