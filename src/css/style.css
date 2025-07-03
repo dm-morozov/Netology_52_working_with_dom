@@ -86,3 +86,9 @@ button:hover {
     background-color: #e0e0e0;
     border: 1px solid #ccc;
 }
+
+.goblin {
+    /* background: url('../img/goblin.png') no-repeat center center; */
+    background-size: cover;
+}
+  

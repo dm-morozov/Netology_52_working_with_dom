@@ -38,7 +38,8 @@ export default [
       ...pluginImport.configs.recommended.rules, // Добавляем рекомендованные правила import
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-      'no-console': 'warn',
+      // 'no-console': 'warn',
+      'no-console': 'off',
       'import/extensions': [
         'error',
         'ignorePackages',

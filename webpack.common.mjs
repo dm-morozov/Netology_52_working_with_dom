@@ -29,6 +29,12 @@ export default {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
+      // заставит Webpack копировать картинки в dist/ 
+      // и возвращать путь к ним.
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },      
     ]
   },
   resolve: {
