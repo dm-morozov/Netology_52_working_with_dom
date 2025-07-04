@@ -32,7 +32,7 @@ export default class Game {
     container?.classList.add("game-container");
 
     if (container) container.innerHTML = "";
-    console.log(container);
+    // console.log(container);
     let num: number = 1;
     for (let row = 0; row <= this.size - 1; row++) {
       const rowEl = document.createElement("div");
@@ -67,6 +67,6 @@ export default class Game {
       "style",
       `background: url(${goblinImg}) center/cover no-repeat`,
     );
-    console.log(attackCell);
+    // console.log(attackCell);
   }
 }
