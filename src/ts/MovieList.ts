@@ -87,12 +87,17 @@ export default class MovieList {
         headerCell.setAttribute("scope", "col");
         headerCell.textContent = title.toUpperCase();
 
-        // Тут еще добовляем стрелочки
+        // Тут еще добавляем стрелочки
         // в зависимости от сортировки ключа в sortCycle и sortIndex
-        const currentSort = this.sortCycle[this.sortIndex];
+
+        // Обнаружена проблема, задержка на одну итерацию из-за sortData()
+        // нужно получить предыдущее значение sortIndex
+        const prevSortIndex =
+          (this.sortIndex - 1 + this.sortCycle.length) % this.sortCycle.length;
+        const currentSort = this.sortCycle[prevSortIndex];
         if (currentSort.key === title) {
           const arrow = document.createElement("span");
-          arrow.textContent = currentSort.direction === "asc" ? " ↑" : " ↓";
+          arrow.textContent = currentSort.direction === "asc" ? " ▲" : " ▼";
           headerCell.appendChild(arrow);
         }
 
